@@ -1,0 +1,13 @@
+.input-field {
+  @apply w-full p-2 border border-dark-700 rounded focus:outline-none
+  focus:borderblue-500 bg-transparent text-white transition-colors mt-1;
+}
+
+.btn-primary {
+  @apply w-full py-2 text-white font-semibold rounded transition duration-300
+  ease-in-out mt-1;
+
+  &:hover {
+    @apply transform scale-105;
+  }
+}
